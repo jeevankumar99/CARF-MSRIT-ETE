@@ -1,53 +1,102 @@
 body {
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
-  }
+    font-family: 'Georgia', 'Montserrat';
 
-  .header {
-      background-color: rgb(31,29,61);
-      display: block;
-      padding: 20px 26px;
-  }
+}
 
-  .header a {
-      font-size: larger;
-      padding: 20px 26px;
-      color: white;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: rgb(164,58,100);
-  }
-  
-  .topnav a {
-    float: left;
+.content p, .content h2, .content ul{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content p {
+  color: #494949;
+}
+
+h1 {
+  font-family: 'Georgia';
+  color: #7f4775;
+  font-weight: lighter;
+  text-align: center;
+} 
+
+h2 {
+  font-family: 'Georgia';
+  color: #17376e;
+  font-weight: lighter;
+}
+.header {
+    background-color: rgb(31,29,61);
     display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: rgb(196, 85, 129);
-  }
-  
-  .topnav a.active {
-    background-color: rgb(141, 9, 62);
+    padding: 20px 26px;
+}
+
+.header a {
+    font-size: larger;
+    padding: 20px 26px;
     color: white;
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(164,58,100);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(196, 85, 129);
+}
+
+.topnav a.active {
+  background-color: rgb(141, 9, 62);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+.imageContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#banner {
+  width: 100%;
+  background-image: url("../assets/banner.jpg");
+  height: 405px;
+  background-position: center;
+}
+
+#banner h1 {
+  font-size: x-large;
+  color: white;
+}
+
   
   @media screen and (max-width: 900px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
+    }
+    .content p {
+      width: 80%;
     }
   }
   
@@ -61,6 +110,8 @@ body {
     .topnav.responsive a {
       float: none;
       display: block;
+      border-bottom: 2px white;
       text-align: left;
     }
   }
+

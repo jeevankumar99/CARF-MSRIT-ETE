@@ -77,15 +77,20 @@ h2 {
 }
 
 #banner {
+  display: flex;
   width: 100%;
-  background-image: url("../assets/banner.jpg");
-  height: 405px;
+  background-image: url("../assets/chamber_banner1.jpg");
+  height: 500px;
+  align-items: center;
+  justify-content: center;
   background-position: center;
 }
 
-#banner h1 {
+#banner_container {
   font-size: x-large;
   color: white;
+  font-size: 3em;
+  text-align: center;
 }
 
   

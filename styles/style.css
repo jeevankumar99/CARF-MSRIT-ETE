@@ -16,7 +16,7 @@ body {
   width: 68%;
 }
 
-.content p, .facultyAdvisor, table td {
+.content p, .facultyAdvisor, table td, .content li {
   color: #494949;
   font-family: 'Gotham';
 }
@@ -173,8 +173,7 @@ td, th {
       float: right;
       display: block;
     }
-    .content p, .content h2, .facultyAdvisor, .content ol, .content li
-    .content ul {
+    .content p, .content h2, .facultyAdvisor, .content ol, .content li, .content ul {
       width: 80%;
     }
     .facultyAdvisorDivLeft, .facultyAdvisorDivRight {

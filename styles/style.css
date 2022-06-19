@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Georgia', 'Montserrat', 'Gotham';
-    margin-bottom 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -77,6 +77,7 @@ h2 {
 
 .imageContent {
   display: flex;
+  width: auto;
   align-items: center;
   justify-content: center;
   padding-top: 2em;
@@ -114,6 +115,12 @@ h2 {
 
 ol li {
   margin-bottom: 10px;
+}
+
+
+img {
+  max-width: 900px;
+  height: auto;
 }
 
 .table_container {
@@ -166,13 +173,18 @@ td, th {
       float: right;
       display: block;
     }
-    .content p, .content h2, .facultyAdvisor {
+    .content p, .content h2, .facultyAdvisor, .content ol, .content li
+    .content ul {
       width: 80%;
     }
     .facultyAdvisorDivLeft, .facultyAdvisorDivRight {
       float: none;
       width: 100%;
       margin-bottom: 10px;
+    }
+    img {
+      width: 500px;
+      height: auto;
     }
 
   }
@@ -192,3 +204,13 @@ td, th {
     }
   }
 
+  @media screen and (max-width: 500px) {
+    .content p, .content h2, .facultyAdvisor, .content ol, .content li 
+    .content ul {
+      width: 95%;
+    }
+    img {
+      width: 300px;
+      height: auto;
+    }
+  }

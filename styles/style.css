@@ -135,6 +135,9 @@ table {
   font-family: 'Gotham-Medium_5';
 }
 
+figcaption {
+  text-align: center;
+}
 
 tr {
   border-bottom: 1px solid #ddd;

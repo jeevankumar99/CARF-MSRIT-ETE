@@ -146,12 +146,20 @@ tr {
   text-align: left;
 }
 
-#project_cost {
+#measurement_charges {
+  width: 400px;
+}
+
+#project_cost, #fabrication_table {
   width: 600px;
 }
 
 #funded_projects, #patents_table, #internships_table {
   width: 800px;
+}
+
+#tarrif_table {
+  width: 900px;
 }
 
 

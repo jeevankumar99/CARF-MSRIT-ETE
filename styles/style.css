@@ -149,6 +149,7 @@ tr {
   text-align: left;
 }
 
+
 #measurement_charges {
   width: 400px;
 }
@@ -169,7 +170,6 @@ tr {
 #projects_table  {
   width: 1200px;
 }
-
 
 td, th {
   padding-right: 15px;
@@ -196,6 +196,10 @@ td, th {
       width: 500px;
       height: auto;
     }
+    video {
+      width: 640px;
+      height: 360px;
+    }
 
   }
   
@@ -221,6 +225,15 @@ td, th {
     }
     img {
       width: 300px;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    video {
+      margin-left: 10px;
+      margin-right: 10px;
+      width:100%;
       height: auto;
     }
   }

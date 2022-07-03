@@ -16,11 +16,15 @@ body {
   width: 68%;
 }
 
+
 .content p, .facultyAdvisor, table td, .content li {
   color: #494949;
   font-family: 'Gotham';
 }
 
+.content p, .content li {
+  font-size: large;
+}
 h1 {
   font-family: 'Georgia';
   color: #7f4775;

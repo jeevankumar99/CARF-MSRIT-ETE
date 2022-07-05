@@ -42,7 +42,9 @@ h2 {
 .header {
     background-color: rgb(31,29,61);
     display: block;
-    padding: 20px 26px;
+    padding: 5px 5px;
+    padding-left: 20px;
+
 }
 
 .header a {
@@ -77,6 +79,11 @@ h2 {
 
 .topnav .icon {
   display: none;
+}
+
+#msrit_logo {
+  width: 150px;
+  height: auto;
 }
 
 .imageContent {
